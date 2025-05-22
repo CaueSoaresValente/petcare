@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 /* Configuraçãp da Página */
 body{
@@ -65,4 +66,62 @@ h1,h2{
     width: 100%;
     z-index: -10;
 
+}
+.tituloclinica{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.listclinica{
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.listclinica li{
+    padding: 10px;
+    margin-left: 50px;
+}
+#clinica{
+    display: flex;
+    padding: 70px 50px 0px 50px ;
+}
+.paragrafoclinica{
+    margin-bottom: 10px;
+    padding: 0px 50px 0 50px;
+    line-height: 25px;
+}
+.botaoclinica{
+    background-color: #ff9a6c;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 32px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 10px;
+
+}
+.imagemclinica{
+    margin-top: 55px;
+}
+.botao-transparenteclinica{
+    background-color: transparent;
+    color: #ff725e;
+    padding: 16px 32px;
+    text-underline-offset: 5px; 
+    position: relative;
+    bottom: 10px;
+}
+#farmacia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.paragrafofarmacia{
+    padding: 0px 400px;
+}
+#farmacia{
+    padding-top: 70px;
+}
+.titulofarmacia{
+    margin: 0;
 }

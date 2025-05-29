@@ -173,3 +173,14 @@ h1,h2{
     padding: 60px 24px 10px 24px;
 }
 
+
+/* Config Footer */
+.divpaifooter{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff9b6c56;    
+}
+.divpaifooter{
+    padding: 50px;
+}
+
